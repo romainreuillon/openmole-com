@@ -1,0 +1,512 @@
+﻿<!DOCTYPE html>
+
+<!--
+  Google HTML5 slide template
+
+  Authors: Luke Mah (code)
+           Marcin Wichary (code and design)
+           
+           Dominic Mazzoni (browser compatibility)
+           Charles Chen (ChromeVox support)
+
+  URL: http://code.google.com/p/html5slides/
+-->
+
+<!-- 
+pattern matching
+-->
+
+
+<html>
+
+
+    <head>
+        <title>OpenMOLE a DSL to explore complex-system models</title>
+
+        <meta charset='utf-8' />
+
+        <script type="text/javascript" src="js/syntaxhighlighter_3.0.83/scripts/shCore.js"></script>
+        <script type="text/javascript" src="js/syntaxhighlighter_3.0.83/scripts/shBrushScala.js"></script>
+        <script type="text/javascript" src="js/syntaxhighlighter_3.0.83/scripts/shBrushCpp.js"></script>
+        <script type="text/javascript" src="js/syntaxhighlighter_3.0.83/scripts/shBrushJava.js"></script>
+        <link href="js/syntaxhighlighter_3.0.83/styles/shCoreEclipse.css" rel="stylesheet" type="text/css" />
+        <link href="js/syntaxhighlighter_3.0.83/styles/shThemeEclipse.css" rel="stylesheet" type="text/css" />
+
+        <script type="text/javascript">SyntaxHighlighter.all()</script>
+
+        <link href='http://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet' type='text/css'>
+
+
+        <style type="text/css">
+            table td{
+                border:none;
+                vertical-align: middle;
+            }
+        </style>
+
+        <script src='slides.js'></script>
+    </head>
+
+    <body style='display: none'>
+
+        <section class='slides layout-regular template-default'>
+            <article>
+                <img class="centered" style="height: 300px" src="images/openmole-logo.png" />
+                <h1 style="margin-top: 50px">Experimenting on complex-system models in the cloud</h1>
+                <p>Romain Reuillon
+                    <br/>
+                    Institut des Systémes Complexes, Paris Île de France
+                </p>         
+            </article>
+
+            <!--<article class="fill"> 
+                <div style="margin-top: 450px"><h3>What are complex systems?</h3></div>
+                <p><img style="width: 100%" src='images/care.png'></p>
+            </article>-->
+
+            <article> 
+                <div><p><p><img style="width: 100%" src='images/termite.jpg'></p></div>
+            </article>
+
+            <article> 
+                <div style="margin-top: 100px"><p><p><img class="centred" style="width: 100%" src='images/facebook.jpg'></p></div>
+            </article>
+
+            <article> 
+                <p><img style="width: 90%" src='images/echosystem.jpg'></p>
+            </article>
+
+            <article> 
+                <p><img style="width: 100%" src='images/neuralnetwork.jpg'></p>
+            </article>
+
+            <article> 
+                <p><img style="width: 90%" src='images/embryo.jpg'></p>
+            </article>
+
+            <article> 
+                <div style="margin-top:40px"><p><img style="width: 100%" src='images/city.jpg'></p></div>
+            </article>
+
+            <article> 
+                <h2>What have they in common?</h2>  
+                <img style="width: 100%; margin-top: 120px" src='images/asterix.jpeg'>
+            </article>
+
+            <article> 
+                <img style="width: 100%; margin-top: 50px" src='images/byagent.png'>                
+            </article>         
+
+            <article class='smaller'>
+                <q>
+                    Donc toutes choses étant causées et causantes, aidées et aidantes [...] je tiens impossible de connaître les parties sans connaître le tout, non plus que de connaître le tout sans connaître particulièrement les parties.
+                </q>
+                <div class='author'>
+                    Blaise Pascal
+                </div>
+            </article>
+
+            <article class='smaller'>
+                <q>
+                    A “complex system” is in general any system comprised of a great number of heterogeneous entities, among which local interactions create multiple levels of collective structure and organization.
+                </q>
+                <div class='author'>
+                    French complex-systems roadmap
+                </div>
+            </article>
+
+            <article class='smaller'>
+                <q>
+                    A system is a complex system if it is made of a large number of interacting elements and if the dynamics of these interactions govern the behavior of the system, giving to it an appearance of unity from the point of view of an external observer.
+                </q>
+                <div class='author'>
+                    Guillaume Beslon
+                </div>
+            </article>
+
+            <article>
+                <video width="800" height="600" controls="controls"/><source src="video/starlings-cut.webm" /></video>
+            </article>
+
+            <article class='smaller'>
+                <q>
+                    To an observer B, an object A* is a model of an object A to the extent that B can use A* to answer questions that interest him about A.
+                </q>
+                <div class='author'>
+                    Marvin Minsky
+                </div>
+            </article>
+
+            <article> 
+                <table>
+                    <tr align='center'>
+                        <td>Separation</td>
+                        <td><img style="width: 50" src='images/separation.gif'></td>
+                    </tr>
+                    <tr align='center'>
+                        <td>Alignment</td>
+                        <td><img style="width: 50" src='images/alignment.gif'></td>
+                    </tr>
+                    <tr align='center'>
+                        <td>Cohesion</td>
+                        <td><img style="width: 50" src='images/cohesion.gif'></td>
+                    </tr>
+                </table>
+            </article>
+
+            <article>
+                <video width="800" height="600" controls="controls"/><source src="video/boids-cut.webm" /></video>
+            </article>
+
+            <article>
+                <img style="margin:0px auto; margin-top: 20px; display:block; height: 60%" src='images/cocktail.jpg'>
+                <img style="margin:0px auto; margin-top: 20px; display:block; height: 30%"  src='images/cocktail-rule1.png'> 
+            </article>
+
+            <article>
+                <video width="800" height="600" controls="controls"/><source src="video/1-party1.webm" /></video>
+            </article>
+
+            <article>
+                <video width="800" height="600" controls="controls"/><source src="video/2-party2.webm" /></video>
+            </article>
+
+            <article> 
+                <h3>Complex-system science is a general scheme:</h3>
+                <ul>
+                    <li>large number of agents interacting locally,</li>
+                    <li>emergent / self organised behaviour,</li>
+                    <li>decentralized dynamics: no master blueprint or grand architect,</li>
+                    <li>dynamic non-linear interactions may contradict our intuition,</li>
+                    <li>transverse methods.</li>
+                </ul>
+            </article>
+
+            <article>
+                <div style="margin-top: 100px"><p><img style="width: 100%" src='images/roadmap.png'></p></div>
+            </article>
+
+            <article class="fill"> 
+                <p>From physic to politic and from molecule to ecosphere</p>
+                <p><img style="height: 100%" src='images/landscape2012.png'></p>
+            </article>
+
+            <!-- Why studing complex systems -->
+
+            <!-- Engineeniring / regulate (finance) sc => biological methaphore -->
+
+            <article>
+                <div style="margin-top: 80px"><img style="width: 100%" src='images/crash.gif'></div>
+                <div align="center"><p>To predict / act / control / regulate</p></div>
+            </article>
+
+            <article>
+                <div align="center" style="margin-top: 50px"><video width="640" height="480" controls="controls"/><source src="video/ants.webm" /></video>
+                    <p>To solve problems</p></div>
+            </article>
+
+            <article>
+                <div align="center" style="margin-top: 50px"><video width="640" height="480" controls="controls"/><source src="video/train.webm" /></video>
+                    <p>To train</p></div>
+            </article>
+
+            <article> 
+                <p>Epistemology of reconstruction</p><br/>
+                <p><img style="width: 500" src='images/triangle.svg'></p>
+            </article>
+
+            <article>
+                <video width="800" height="600" controls="controls"/><source src="video/raw.webm" /></video>
+            </article>
+
+            <article>
+                <video width="800" height="600" controls="controls"/><source src="video/apheno.webm" /></video>
+            </article>
+
+            <article>
+                <video width="800" height="600" controls="controls"/><source src="video/mecagen.ogg" /></video>
+            </article>
+
+            <article class='smaller'>
+                <q>
+                    The decisive thing with modeling is not the model per se, but what the model and working with the model does to your mind.
+                </q>
+                <div class='author'>
+                    Volker Grimm
+                </div>
+            </article>
+
+            <article>
+                <img style="width: 100%; margin-top: 100px" src='images/fullcycle.png'>
+            </article>
+
+            <article class="fill"> 
+                <div style="margin-top: 450px"><h3>Complex-systems models are not invertible in general.</h3></div>
+                <p>
+                    <img style="width: 100%" src='images/oneway.jpg'>
+                </p>
+            </article>
+
+            <article>
+                <img style="width: 100%; margin-top: 100px" src='images/reverse.jpg'>
+            </article>
+
+            <article>
+                <img style="width: 100%; margin-top: 100px" src='images/calibrationsimpop.svg'>
+            </article>
+
+            <article>
+                <img style="width: 90%; margin-top: 50px" src='images/guided.jpg'>
+            </article>
+            
+            <article>
+                <img style="width: 100%; margin-top: 0px" src='images/calibrationsimpop_obj.svg'>
+            </article>
+
+            <article> 
+                <img style="width: 100%; margin-top: 50px" src='images/ga.png'>
+            </article>
+
+            <article> 
+                <img style="width: 100%; margin-top: 50px" src='images/island.png'>
+            </article>
+            
+            <article>
+                <video width="800" height="600" controls="controls"/><source src="video/maplarge.webm" /></video>
+            </article>
+            <!--<article> 
+                <img style="width: 100%; margin-top: 50px" src='images/map-complete.png'>
+            </article>-->
+
+            <!-- Transverse integrated methods -->
+
+
+
+            <!--<article> 
+                <div class="center" style="top: 50px">
+                    <p>In the complex-system community, <span style="color: #b1c436;"><strong>the numerical modeling</strong></span> is a widespread tool for scientific investigations.</p> <br /> 
+                    <img style="height: 250px" src="images/elephant.gif"/>
+                </div>
+            </article>
+
+            <article> 
+                <div class="center" style="top: 20px">           
+                    <p>What do modelers do ? </p> <br />
+                    Mapping data to model inputs <span style="color: #b1c436;"><strong> (backward problem)</strong></span></p> <br />   
+                    <img style="height: 250px" src="images/cube.png"/> <br /> <br />
+                </div>
+            </article>-->
+
+            <article> 
+                <div style="top: 30px">           
+                    <img style="margin:0px auto; margin-top: 20px; display:block; height: 60%" src="images/bigdata.png"/><br/>
+                    <p style="text-align: center">Modeling complex-systems greatly benefit of being coupled with <span style="color: #b1c436;"><strong>large scale experimentations</strong></span> on models.</p> <br /> 
+                </div>
+            </article>
+
+            <article class="fill"> 
+                <div style="margin-top: 150px"><h3>Naturally parallel algorithms => leverage parallelism.</h3></div>
+                <img src="images/clones.jpg"/>
+            </article>
+
+            <article>    
+                <img style="width: 100%; margin-top: 10px" src="images/exploration.jpeg"/>
+                <div style="margin-top: 20px; text-align: center">Design of experiments on a space of parameters.</div>
+            </article>
+
+            <article>    
+                <img style="width: 100%; margin-top: 10px" src="images/des.jpeg"/>
+                <div style="margin-top: 20px; text-align: center">Stochastic processes.</div>
+            </article>
+
+            <article>    
+                <img style="margin:0px auto; margin-top: 10px; display:block; height: 80%;" src="images/calibration.jpeg"/>
+                <div style="margin-top: 20px; text-align: center">Calibration.</div>
+            </article>
+
+            <article>    
+                <img style="margin:0px auto; margin-top: 10px; display:block; height: 80%;" src="images/genetics.jpeg"/>
+                <div style="margin-top: 20px; text-align: center">Genetic algorithms.</div>
+            </article>
+
+            <article>    
+                <img style="margin:0px auto; margin-top: 10px; display:block; height: 80%;" src="images/sensitivity.jpg"/>
+                <div style="margin-top: 20px; text-align: center">Sensitivity analyzes.</div>
+            </article>
+
+            <article> 
+                <div class="center" style="top: 20px">    
+                    <p>What does <span style="color: #b1c436;"><strong>OpenMOLE</strong></span> achieve ?</p>
+                </div>
+                <table>
+                    <tr align='center'>
+                        <td>It implements <span style="color: #b1c436;"><strong>complex-system exploration algorithms</strong></span>.</td>
+                        <td><img style="width: 200px; margin-top: 20px; margin-bottom: 20px" src='images/algorithms.png'></td>
+                    </tr>
+                    <tr align='center'>
+                        <td>It <span style="color: #b1c436;"><strong>delegates transparently</strong></span> the computation load to massively parallel environments.</td>
+                        <td><img style="width: 200px; margin-top: 20px; margin-bottom: 20px" src='images/supercomputer.jpg'></td>
+                    </tr>
+                </table>
+            </article>
+
+            <article class="fill">    
+                <img style="width: 100%; margin-top: 10px" src="images/egi.png"/>
+            </article>
+
+            <article>    
+                <img style="margin:0px auto; margin-top: 80px; display:block; height: 50%;" src="images/wfExample.png"/>
+                <div style="margin-top: 20px; text-align: center">A <span style="color: #b1c436;"><strong>naturally parallel formalism</strong></span> to design experiments on the models.</div>
+            </article>
+
+            <article>    
+                <img style="margin:0px auto; margin-top: 40px; display:block; height: 70%;" src="images/taskExample.png"/>
+                <div style="margin-top: 20px; text-align: center">Embed <span style="color: #b1c436;">
+                        <strong>your model</strong></span> as a black box:<br/> launching command, inputs, outputs.
+                </div>
+            </article>
+
+            <article>    
+                <img style="margin:0px auto; margin-top: 10px; display:block; height: 80%;" src="images/sampling.png"/>
+                <div style="margin-top: 30px; text-align: center">Describe the way <span style="color: #b1c436;"><strong>to explore your space of parameters</strong></span>.</div>
+            </article>            
+
+            <article>    
+                <img style="margin:0px auto; margin-top: 80px; display:block; height: 50%;" src="images/wfNoEnvExample.png"/>
+                <div style="margin-top: 20px; text-align: center">Connect the tasks and build a <span style="color: #b1c436;"><strong>workflow</strong></span>.</div>
+            </article>
+
+            <article>    
+                <img style="margin:0px auto; margin-top: 100px; display:block; height: 50%;" src="images/envExample.png"/>
+                <div style="margin-top: 30px; text-align: center">Assign <span style="color: #b1c436;"><strong>execution environments</strong></span> to tasks.</div>
+            </article>
+
+            <article>    
+                <img style="margin:0px auto; margin-top: 70px; display:block; height: 60%;" src="images/runExample.jpg"/>
+                <div style="margin-top: 30px; text-align: center"><span style="color: #b1c436;"><strong>Run and control </strong></span> the workflow execution.</div>
+            </article>
+
+            <article>
+                <div class="center">  
+                    <pre class="brush: scala">val i1 = Prototype[Int]("i1")
+val i2 = Prototype[Int]("i2")
+val j = Prototype[Int]("j")
+
+val hello = GroovyTask("hello", "j = Model.compute(i1, i2)")
+
+hello addInput i1
+hello addInput i2
+hello addOutput j
+hello addLib "/path/to/model.jar"
+
+val exploration = ExplorationTask(
+    "exploration",
+    Factor(i1, 0 to 100 by 2 toDomain) x 
+    Factor(i2, new UniformIntDistribution take 10)
+  )
+
+val ex = exploration -< (hello by 10 on biomed) toExecution        
+ex.start</pre>
+                </div>
+            </article>
+
+            <article class="fill"> 
+                <div style="margin-top: 500px"><h3>Download: <span style="color: #b1c436;"><strong>http://www.openmole.org</strong></span></h3></div>
+                <p>
+                    <img style="width: 100%" src='images/stallman.jpg'>
+                </p>
+            </article>
+
+            <article> 
+                <table>
+                    <tr align='center'>
+                        <td><span style="color: #b1c436;"><strong>Chromosome structuring</strong></span></td>
+                        <td><img style="width: 120px" src='images/explorationStamp.png'></td>
+                    </tr>
+                    <tr align='center'>
+                        <td><img style="height: 220px" src="images/chromosome.png"/></td>
+                        <td>C++<br/>2 days per simulation<br/>1600 simulations<br/>8.5 years / CPU</td>
+                    </tr>
+                </table>
+                <div style="margin-top: 30px">Junier et al., CTCF-mediated transcriptional regulation through cell type-specific chromosome organization in the β-globin locus, Nucleic Acids Research, 2012.</div>
+            </article>
+
+            <article> 
+                <table>
+                    <tr align='center'>
+                        <td><span style="color: #b1c436;"><strong>SimTRAP project</strong></span></td>
+                        <td><img style="width: 120px" src='images/desStamp.png'></td>
+                    </tr>
+                    <tr align='center'>
+                        <td><img style="height: 220px" src="images/simTRAP.png"/></td>
+                        <td>NetLogo<br/>5 minutes per simulation<br/>100000 simulations<br/>1 year / CPU</td>
+                    </tr>
+                </table>
+                <div style="margin-top: 30px"><span style="color: #b1c436;"><strong>PhD thesis </strong></span>of J. Figuel, Modélisation et simulation des comportements piétonniers dans les espaces de transport – Application aux échanges quai / train de voyageurs.</div>
+            </article>
+
+            <article> 
+                <table>
+                    <tr align='center'>
+                        <td><span style="color: #b1c436;"><strong>Simpop project</strong></span></td>
+                        <td><img style="width: 120px" src='images/calineticsStamp.png'></td>
+                    </tr>
+                    <tr align='center'>
+                        <td><img style="height: 220px" src="images/cabanes.jpg"/></td>
+                        <td>Scala<br/>5 minutes per simulation<br/>360 000 000 simulations<br/>22 year / CPU</td>
+                    </tr>
+                </table>
+                <div style="margin-top: 30px">Reuillon et al., Algorithmes évolutionnaires sur grille de calcul pour le calibrage de modéles géographiques, proceedings of France Grilles 2012.</div>
+            </article>
+
+            <article> 
+                <img class="centered" style="margin-top: 20px; height: 40%" src="images/openmole-logo.png">
+                <p>3 months release cycle:</p>
+                <ul>
+                    <li>Jun: Boundless Bamboo (0.5)</li>
+                    <li>September: Crazy Coconut (0.6)</li>
+                    <li>December: Daddy Django (0.7)</li>
+                </ul> 
+            </article>
+
+            <article>        
+                <img class="centered" style="margin-top: 40px; height: 40%" src="images/django.jpg">
+                <p>Daddy Django</p>
+                <ul>
+                    <li>Scalable and reliable.</li>
+                    <li>Ergonomic (console and GUI).</li>
+                    <li>Embedable.</li>
+                </ul> 
+            </article>
+
+            <article> 
+                <img class="centered" style="margin-top: 70px; height: 40%" src="images/the-future.jpg">
+                <ul>
+                    <li>Stable file format for workflows <=> 1.0 (spring).</li>
+                    <li>Development / integration of state-of-the-art methods using HPC to study models.</li>
+                    <li>Place the model at the center.</li>
+                </ul> 	
+            </article>
+
+            <article> 
+                <pre style="margin-top: 80px" class="brush: scala">def thanks = 
+ List(
+  "René Doursat" -> "slides of complex-systems Erasmus Mundus 2011",
+  "Guillaume Beslon" -> "slides of complex-systems Summer School 2012",
+  "Arnaud Banos" -> "slides of course at INP of Toulouse 2012",
+  "David Chavalarias" -> "site http://communityexplorer.org/",
+  "Thierry Savy" -> "videos of Bioemmergences",
+  "Julien Delile" -> "video of Mecagen",
+  "Internet" -> "various images and inspirations"
+ )
+
+thanks.map{case(p, h) => s"Thanks to $p for the $h."}.foreach(println)</pre>
+            </article>          
+
+            <article> 
+                <img style="margin:0px auto; margin-top: 0px; display:block; height: 100%" src="images/interpolate.jpg"/>
+            </article>
+        </section>
+
+    </body>
+</html>

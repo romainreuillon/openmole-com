@@ -75,7 +75,6 @@
                     <img src="images/monkey.png " style="margin-top:-100px" alt="monkey">
                     <p style="margin-top:-200px; margin-left:-150px; width: 400px">
                         When you want to run a <span style="color: #b1c436">large scale study</span> of the brain...
-                        </h2>
                     </p>
                 </section>
 
@@ -83,7 +82,7 @@
                 <section>
                     <img style="margin-left: 200px; height:700px;margin-top:-100px" src="images/asterix.jpeg"/>  
                     <p style="margin-top: -300px; margin-left:-250px; width: 400px">  
-                        But the <span style="color: #b1c436"> deadline for MICCAI</span> is getting so close...</span>   
+                        But the <span style="color: #b1c436"> deadline for MICCAI</span> is getting so close...
                     </p>             
                 </section>
 
@@ -120,7 +119,7 @@
                     <table style='margin-top:-80px;margin-left:-150px;width:1400px'>
                         <tr align='center;'>
                             <td><img style="vertical-align: middle;width: 200px;" src='images/egi.jpg'></td>
-                            <td><h2><span style="color: #a8aaad;">European Grid</span></span> <span style="color: #0068b6;">Infrastructure</span></h2></td>
+                            <td><h2><span style="color: #a8aaad;">European Grid</span> <span style="color: #0068b6;">Infrastructure</span></h2></td>
                         </tr>
                     </table> 
                     <img style="width: 100%; margin-top: 50px" src="images/egimap.jpg"/>
@@ -181,7 +180,7 @@
                             <td><img src="images/transition.png"/></td>
                             <td style="vertical-align: middle;">Variables navigate from one Task to another by means of <span style="color: #b1c436;">Transitions</span></td>
                         </tr>
-                        <tr class="fragment"style="border-top: -10px;" >
+                        <tr class="fragment" style="border-top: -10px;" >
                             <td><img src="images/transitionLoop.png"/></td>
                             <td style="vertical-align: middle;">eventually doing <span style="color: #b1c436;">Loops</span>.</td>
                         </tr>
@@ -266,7 +265,8 @@
                 <section style="width:1700px;margin-left:-350px; margin-top: -90px">
                     <h2>OpenMOLE from a <span style="color: #b1c436;">DSL</span></h2>
                     <div>  
-                        <pre class="brush: scala">val i1 = Prototype[Int]("i1")
+                        <pre class="brush: scala">
+val i1 = Prototype[Int]("i1")
 val i2 = Prototype[Int]("i2")
 val j = Prototype[Int]("j")
 
@@ -283,8 +283,9 @@ val exploration = ExplorationTask(
     Factor(i2, new UniformIntDistribution take 10)
   )
 
-val ex = exploration -< (hello by 10 on biomed) toExecution        
-ex.start</pre>
+val ex = exploration -&lt; (hello by 10 on biomed) toExecution        
+ex.start
+</pre>
                     </div>
                 </section>
 
@@ -360,7 +361,7 @@ ex.start</pre>
                 </section>
 
 <section>
-    
+    TODO
 </section>    
 
 

@@ -15,7 +15,10 @@
    id="svg2"
    version="1.1"
    inkscape:version="0.48.4 r9939"
-   sodipodi:docname="button.svg">
+   sodipodi:docname="button.svg"
+   inkscape:export-filename="/home/reuillon/Bureau/button.png"
+   inkscape:export-xdpi="37"
+   inkscape:export-ydpi="37">
   <defs
      id="defs4">
     <linearGradient
@@ -6503,13 +6506,13 @@
      inkscape:pageshadow="2"
      inkscape:zoom="1.4"
      inkscape:cx="275.70093"
-     inkscape:cy="129.35394"
+     inkscape:cy="218.61188"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
-     inkscape:window-width="1615"
-     inkscape:window-height="1026"
-     inkscape:window-x="1431"
+     inkscape:window-width="1301"
+     inkscape:window-height="744"
+     inkscape:window-x="65"
      inkscape:window-y="24"
      inkscape:window-maximized="1"
      fit-margin-top="0"
@@ -6524,7 +6527,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -6541,15 +6544,15 @@
        x="-10.000011"
        y="385.21933"
        ry="48.57143"
-       inkscape:export-filename="/tmp/funky.png"
-       inkscape:export-xdpi="37.092392"
-       inkscape:export-ydpi="37.092392" />
+       inkscape:export-filename="/home/reuillon/Bureau/button.png"
+       inkscape:export-xdpi="54"
+       inkscape:export-ydpi="54" />
     <g
        id="g10690"
        transform="matrix(0.30678222,0,0,0.30678222,-23.644022,596.81506)"
-       inkscape:export-filename="/home/reuillon/Bureau/funky.png"
-       inkscape:export-xdpi="37.092392"
-       inkscape:export-ydpi="37.092392">
+       inkscape:export-filename="/home/reuillon/Bureau/button.png"
+       inkscape:export-xdpi="54"
+       inkscape:export-ydpi="54">
       <g
          id="fond_couleur-5"
          transform="translate(74.731685,-92.438022)">
@@ -12820,9 +12823,9 @@
        style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#b2c64d;fill-opacity:1;stroke:none;filter:url(#filter11735);font-family:Fredericka the Great;-inkscape-font-specification:Fredericka the Great"
        id="flowRoot6140"
        xml:space="preserve"
-       inkscape:export-filename="/home/reuillon/Bureau/funky.png"
-       inkscape:export-xdpi="37.092392"
-       inkscape:export-ydpi="37.092392"><flowRegion
+       inkscape:export-filename="/home/reuillon/Bureau/button.png"
+       inkscape:export-xdpi="54"
+       inkscape:export-ydpi="54"><flowRegion
          id="flowRegion6142"><rect
            style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#b2c64d;fill-opacity:1;font-family:Fredericka the Great;-inkscape-font-specification:Fredericka the Great"
            y="340.34103"
@@ -12835,9 +12838,9 @@
        style="font-size:40px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#666666;fill-opacity:1;stroke:none;filter:url(#filter11723);font-family:Fredericka the Great;-inkscape-font-specification:Fredericka the Great Bold"
        id="flowRoot6148"
        xml:space="preserve"
-       inkscape:export-filename="/home/reuillon/Bureau/funky.png"
-       inkscape:export-xdpi="37.092392"
-       inkscape:export-ydpi="37.092392"><flowRegion
+       inkscape:export-filename="/home/reuillon/Bureau/button.png"
+       inkscape:export-xdpi="54"
+       inkscape:export-ydpi="54"><flowRegion
          id="flowRegion6150"><rect
            style="font-size:40px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#666666;font-family:Fredericka the Great;-inkscape-font-specification:Fredericka the Great Bold"
            y="158.21236"
@@ -12918,9 +12921,9 @@
        id="path13077"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cc"
-       inkscape:export-filename="/home/reuillon/Bureau/funky.png"
-       inkscape:export-xdpi="37"
-       inkscape:export-ydpi="37" />
+       inkscape:export-filename="/home/reuillon/Bureau/button.png"
+       inkscape:export-xdpi="54"
+       inkscape:export-ydpi="54" />
     <g
        id="g6622"
        transform="translate(-426.38214,14.366937)"
@@ -12967,9 +12970,9 @@
        y="431.95023"
        id="text5807"
        sodipodi:linespacing="125%"
-       inkscape:export-filename="/home/reuillon/Bureau/funky.png"
-       inkscape:export-xdpi="37"
-       inkscape:export-ydpi="37"><tspan
+       inkscape:export-filename="/home/reuillon/Bureau/button.png"
+       inkscape:export-xdpi="54"
+       inkscape:export-ydpi="54"><tspan
          sodipodi:role="line"
          id="tspan5809"
          x="190.96742"
@@ -12978,7 +12981,10 @@
     <g
        id="g6254"
        transform="matrix(0.12172631,0,0,-0.12172631,-288.18615,766.29022)"
-       style="fill:#0088aa;fill-opacity:1">
+       style="fill:#0088aa;fill-opacity:1"
+       inkscape:export-filename="/home/reuillon/Bureau/button.png"
+       inkscape:export-xdpi="54"
+       inkscape:export-ydpi="54">
       <path
          id="path6252"
          d="m 4430.9219,614.72447 c -88.6964,11.38474 -139.7775,26.86689 -169.5138,51.37803 -18.3171,15.09864 -23.0151,23.21898 -20.6354,35.66796 2.8946,15.14154 1.6269,14.70404 -20.9082,-7.21689 -33.8361,-32.91372 -75.6844,-50.1945 -121.9779,-50.36927 -60.5976,-0.22884 -84.4152,18.79434 -98.0469,78.31008 -6.1212,26.72511 -6.3566,46.28492 -0.9551,79.36556 4.4223,27.0835 5.0954,60.32766 1.7571,86.78525 -2.976,23.58694 -3.0264,47.14636 -0.112,52.35415 2.9145,5.20778 3.8086,20.58081 1.9869,34.16208 -2.8554,21.28854 -0.887,26.28228 14.2754,36.21708 17.4283,11.4194 17.4728,11.6499 4.9151,25.4664 -23.6457,26.0159 -31.4347,51.9232 -28.5504,94.9632 1.1614,17.3301 69.2117,87.6312 84.8255,87.6312 13.8972,0 8.4531,35.5365 -11.5932,75.6754 -16.4452,32.9282 -13.9594,46.688 10.443,57.8064 34.9261,15.9135 73.344,-35.1578 82.6018,-109.8074 2.8989,-23.3751 7.2513,-45.7049 9.6721,-49.6218 6.7761,-10.964 27.0033,-8.5108 56.4724,6.8494 19.2671,10.0426 31.877,12.5645 44.8467,8.9693 39.831,-11.0412 77.979,-5.9248 108.1074,14.4995 l 28.984,19.6484 -2.0365,48.418 c -1.6938,40.2698 -4.4764,50.4551 -16.5345,60.5222 -7.9739,6.6572 -17.9682,12.2031 -22.2095,12.3241 -9.5507,0.2725 -46.0335,45.6107 -53.9616,67.0595 -3.2187,8.7081 -7.8658,28.8467 -10.3268,44.7524 l -4.4744,28.9193 18.3957,-4.5183 c 52.8135,-12.9722 53.2389,-12.8977 78.3793,13.7544 18.4061,19.5128 27.0362,37.1095 36.67,74.7701 6.9293,27.0884 15.7664,51.2093 19.6379,53.602 4.614,2.8516 2.3224,12.0873 -6.6513,26.807 -17.2869,28.3556 -17.4,56.0553 -0.3431,84.0318 13.7384,22.5338 12.539,34.3248 -3.4915,34.3248 -5.0354,0 -13.0444,5.5479 -17.7977,12.3285 -8.0549,11.4906 -61.2231,27.3543 -91.6798,27.3543 -9.9007,0 -20.5414,-15.9285 -45.2864,-67.7914 -36.2075,-75.8869 -46.9416,-106.4165 -46.9416,-133.5096 0,-13.304 -7.8745,-25.6803 -28.1057,-44.1735 -15.4582,-14.1301 -30.3392,-25.6911 -33.069,-25.6911 -2.7298,0 -4.9633,-17.6447 -4.9633,-39.2104 0,-41.6792 -10.0939,-59.9966 -33.0614,-59.9966 -17.1741,0 -41.3122,32.6513 -37.7837,51.1096 2.1056,11.0149 -0.2295,15.0284 -8.7438,15.0284 -13.0799,0 -72.5284,53.396 -72.5284,65.1441 0,4.1843 -4.3596,7.6076 -9.688,7.6076 -11.972,0 -23.381,20.265 -23.381,41.5299 0,24.1657 22.593,40.4569 58.0633,41.8679 32.182,1.2801 44.5533,11.7365 22.258,18.8128 -35.696,11.3294 -48.2765,76.8825 -20.4376,106.4945 14.3658,15.2808 16.4327,24.2166 18.4796,79.8904 2.1981,59.7866 2.9626,62.5913 16.5345,60.657 13.6404,-1.9441 14.1339,-4.7069 11.9155,-66.6921 -1.2728,-35.5652 0.5489,-68.3035 4.0484,-72.7518 3.4995,-4.4483 8.4628,-17.0164 11.0295,-27.9291 9.72,-41.3263 20.2334,-49.6035 63.0037,-49.6035 l 39.0864,0 33.2149,54.989 c 23.5175,38.9346 32.0946,59.273 29.3777,69.6624 -7.8764,30.1194 37.666,54.4828 57.3989,30.706 10.5393,-12.6989 74.641,-31.8952 108.6014,-32.5224 23.4218,-0.4325 27.3397,-3.0865 39.7285,-26.9128 12.9508,-24.9073 16.0319,-26.774 53.3812,-32.3407 58.6708,-8.7446 72.8671,-7.492 92.8019,8.1888 9.9352,7.815 23.4024,14.209 29.9271,14.209 17.3128,0 32.6495,-18.1446 32.6495,-38.6269 0,-20.2758 37.6916,-114.4151 48.598,-121.3793 9.3182,-5.9501 20.8271,3.9773 44.5006,38.3856 16.9677,24.6617 18.7341,31.7105 15.0115,59.9046 -2.3204,17.5746 -10.4767,40.8826 -18.1249,51.7953 -20.0559,28.6163 -18.8589,70.8844 2.608,92.0955 9.094,8.9856 24.8474,17.4055 35.0076,18.711 23.9793,3.081 44.3579,36.0063 44.3579,71.6676 0,37.6585 9.5133,52.3157 33.9556,52.3157 25.6828,0 62.8158,-17.4349 75.401,-35.4028 17.713,-25.2889 12.2588,-46.9986 -16.8812,-67.1926 -25.4877,-17.663 -26.1626,-19.0414 -16.527,-33.7473 41.6659,-63.5901 49.699,-90.0822 35.4987,-117.0698 -14.15,-26.892 -72.5859,-78.9139 -97.0472,-86.3952 -24.6527,-7.5399 -106.993,-86.3198 -106.993,-102.3667 0,-4.316 -7.4405,-11.2375 -16.5345,-15.3809 -23.0101,-10.4841 -47.153,1.4453 -52.5372,25.9594 -2.2939,10.4442 -14.1657,45.6052 -26.3818,78.1357 -17.3293,46.1465 -25.2705,59.6108 -36.1305,61.2597 -12.5552,1.9063 -13.9195,-1.0856 -13.9195,-30.5236 0,-22.4634 -4.064,-37.8034 -13.037,-49.2109 -12.9735,-16.4931 -12.9735,-16.6313 0,-28.3721 7.1704,-6.4892 13.037,-20.072 13.037,-30.1842 0,-24.9219 9.9999,-49.6539 35.1234,-86.8677 22.7947,-33.7644 28.7547,-35.6776 73.6968,-23.6574 16.3044,4.3607 31.4042,6.1688 33.5552,4.0177 6.9878,-6.9877 -17.4797,-81.0769 -30.5053,-92.3721 -6.9648,-6.0394 -12.6632,-13.7628 -12.6632,-17.1629 0,-8.9937 -22.6173,-28.0383 -33.5897,-28.2839 -14.2926,-0.3201 -32.7128,-16.5412 -35.5575,-31.3132 -6.0336,-31.3301 -5.3479,-78.6432 1.3196,-91.0438 3.9743,-7.3918 21.2219,-20.4295 38.328,-28.9727 28.811,-14.3889 33.6235,-14.9282 65.3318,-7.3215 30.8074,7.3906 36.6519,6.9134 58.4553,-4.7725 29.6335,-15.8826 79.7606,-67.8971 102.1668,-106.0136 13.0621,-22.2207 15.7147,-33.5041 12.4384,-52.9103 -2.2905,-13.5665 -4.097,-29.8747 -4.0147,-36.2405 0.3882,-30.01696 0,-36.4659 -3.6825,-61.62503 -4.0475,-27.62964 6.7686,-82.22504 16.2897,-82.22504 2.9336,0 10.6192,5.8404 17.0792,12.97859 15.6968,17.34468 52.0747,28.71462 75.4476,23.58099 15.778,-3.46538 19.5973,-1.72322 22.7633,10.38366 4.6188,17.66239 -1.3013,50.80876 -12.2878,68.7982 -12.2006,19.97736 -17.8233,87.17823 -8.7382,104.43533 10.8365,20.5836 18.9692,24.886 45.3957,24.015 36.2977,-1.1963 37.8561,0.091 14.2147,11.7388 -12.1887,6.0055 -30.0459,22.8335 -39.6828,37.3958 -15.1229,22.852 -17.5215,33.4111 -17.5215,77.1287 0,44.964 2.1253,53.7188 18.9262,77.9625 42.9591,61.99 131.8225,72.7449 185.0384,22.3946 64.6982,-61.214 51.0001,-168.6779 -27.3966,-214.9331 -15.0125,-8.8576 -19.9817,-14.7777 -13.9598,-16.6309 18.6288,-5.7329 32.4988,-23.4312 32.4988,-41.4691 0,-10.1343 -2.7129,-20.1026 -6.0285,-22.1518 -3.5434,-2.1899 -3.0495,-11.6181 1.198,-22.871 5.8358,-15.46099 5.0868,-22.41093 -3.8922,-36.11461 -6.1153,-9.33314 -11.1187,-22.66209 -11.1187,-29.6198 0,-6.95772 -4.6606,-16.51837 -10.3568,-21.24583 -5.6962,-4.72746 -14.7013,-16.99672 -20.0113,-27.26505 -5.3099,-10.26825 -14.0714,-18.66959 -19.47,-18.66959 -5.3985,0 -14.9122,-5.95242 -21.1414,-13.22759 -6.2292,-7.27518 -14.7816,-13.2276 -19.0053,-13.2276 -10.2445,0 -15.0341,-20.16935 -8.6631,-36.48153 2.8188,-7.21706 5.3231,-28.00298 5.5651,-46.19092 0.5205,-39.09895 -16.963,-72.44993 -44.1383,-84.19727 -10.0118,-4.3279 -27.7503,-15.97083 -39.4189,-25.87326 -13.6597,-11.59208 -32.5039,-19.51541 -52.9104,-22.24715 -17.432,-2.3336 -40.3233,-6.99914 -50.8695,-10.36779 -36.1846,-11.55835 -79.6867,-7.35074 -105.5643,10.21021 -13.2391,8.98435 -24.0712,13.52505 -24.0712,10.09051 0,-14.70148 -43.2376,-25.94948 -137.5137,-35.77345 -116.5667,-12.14657 -138.8529,-12.15864 -232.6017,-0.12566 z"
@@ -13774,7 +13780,10 @@
        xml:space="preserve"
        id="flowRoot6414"
        style="font-size:10px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;font-family:GROBOLD;-inkscape-font-specification:GROBOLD Medium"
-       transform="matrix(4.0678576,0,0,4.0678576,-1842.0401,-1880.3896)"><flowRegion
+       transform="matrix(4.0678576,0,0,4.0678576,-1842.0401,-1880.3896)"
+       inkscape:export-filename="/home/reuillon/Bureau/button.png"
+       inkscape:export-xdpi="54"
+       inkscape:export-ydpi="54"><flowRegion
          id="flowRegion6416"><rect
            id="rect6418"
            width="110.48544"
@@ -13783,9 +13792,9 @@
            y="615.37451"
            style="font-size:10px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;font-family:GROBOLD;-inkscape-font-specification:GROBOLD Medium" /></flowRegion><flowPara
          id="flowPara6420">0.10</flowPara></flowRoot>    <flowRoot
-       inkscape:export-ydpi="67"
-       inkscape:export-xdpi="67"
-       inkscape:export-filename="/Users/Marleneetienne/Desktop/boundless-bamboo2-705.png"
+       inkscape:export-ydpi="54"
+       inkscape:export-xdpi="54"
+       inkscape:export-filename="/home/reuillon/Bureau/button.png"
        xml:space="preserve"
        id="flowRoot7896"
        style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#0088aa;fill-opacity:1;stroke:none;display:inline;enable-background:new;font-family:Fredericka the Great;-inkscape-font-specification:Fredericka the Great"
@@ -13802,9 +13811,9 @@
        style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#666666;fill-opacity:1;stroke:none;display:inline;enable-background:new;font-family:Fredericka the Great;-inkscape-font-specification:Fredericka the Great"
        id="flowRoot5586"
        xml:space="preserve"
-       inkscape:export-filename="/Users/Marleneetienne/Desktop/boundless-bamboo2-705.png"
-       inkscape:export-xdpi="67"
-       inkscape:export-ydpi="67"><flowRegion
+       inkscape:export-filename="/home/reuillon/Bureau/button.png"
+       inkscape:export-xdpi="54"
+       inkscape:export-ydpi="54"><flowRegion
          id="flowRegion5588"><rect
            style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#666666;fill-opacity:1;font-family:Fredericka the Great;-inkscape-font-specification:Fredericka the Great"
            y="-93.187782"

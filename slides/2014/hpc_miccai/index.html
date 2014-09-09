@@ -52,7 +52,7 @@ Medical Image Analysis</h1>
                     <img src="images/openmole2.png" alt="Up arrow">
 
                     <p style="margin-top:100px">
-                        <small> <a href="mailto:j.passerat-palmbach __at__ imperial.ac.uk">Jonathan Passerat-Palmbach</a></small>
+                        <small> <a href="mailto:j.passerat-palmbach __at__ imperial.ac.uk"><b>Jonathan Passerat-Palmbach</b></a></small>
                         <small>    //    <a href="mailto:mathieu.leclaire __at__ iscpif.fr">Mathieu Leclaire</a></small>
                         <small>    //    <a href="mailto:romain.reuillon __at__ iscpif.fr">Romain Reuillon</a></small>
                         <small>    //    <a href="mailto:__at__ ">Zehan Wang</a></small>
@@ -73,7 +73,9 @@ Medical Image Analysis</h1>
 
                 <section >
 <!--                    <img style="margin-left: 300px;" src="images/monkey.png " alt="monkey"  >-->
-                    <img class="stretch" src="images/monkey.png " alt="monkey">
+                    <img class="stretch" src="images/patch_based_segmentation.png" />
+                    <h4>Wang, Z., Bhatia, K.K., Glocker, B., de Marvao, A., Dawes, T., Kazunari, M., Mori,
+K., Rueckert, D.: <span style="color: #b1c436;">Geodesic patch-based segmentation</span>, MICCAI 2014</h4>
 <!--
                         
                     <p>
@@ -254,8 +256,7 @@ ex.start
 <section >
     <h2><span style="color: #b1c436;">Exploring</span> the dataset of a <span style="color: #b1c436;">Patch Based Segmentation</span> method in </h2> <h1><span style="color: #b1c436;"> 4 steps</span></h1>
     <img src="images/exploration.jpeg" />
-    <h4>Wang, Z., Bhatia, K.K., Glocker, B., de Marvao, A., Dawes, T., Kazunari, M., Mori,
-K., Rueckert, D.: <span style="color: #b1c436;">Geodesic patch-based segmentation</span>, MICCAI 2014</h4>
+    
 </section>
 
 <section >
@@ -415,7 +416,8 @@ K., Rueckert, D.: <span style="color: #b1c436;">Geodesic patch-based segmentatio
                 center: true,
                 theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
                 transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
-
+                slideNumber: true,
+                
                 // Optional libraries used to extend on reveal.js
                 dependencies: [
                     {src: 'js/reveal.js-2.5.0/lib/js/classList.js', condition: function() {

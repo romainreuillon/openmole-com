@@ -24,7 +24,13 @@
 
         <!-- If the query includes 'print-pdf', use the PDF print sheet -->
         <script>
-            document.write('<link rel="stylesheet" href="js/reveal.js/css/print/' + (window.location.search.match(/print-pdf/gi) ? 'pdf' : 'paper') + '.css" type="text/css" media="print">');
+			if( window.location.search.match( /print-pdf/gi ) ) {
+				var link = document.createElement( 'link' );
+				link.rel = 'stylesheet';
+				link.type = 'text/css';
+				link.href = 'css/print/pdf.css';
+				document.getElementsByTagName( 'head' )[0].appendChild( link );
+			}
         </script>
         <!--[if lt IE 9]>
         <script src="lib/js/html5shiv.js"></script>
@@ -406,7 +412,7 @@ cpuTime = 4 hours)
             <ul>
                 <li>Hundreds of MB of input data per subject</li>
                 <li>Hundreds of individual executions run</li>
-                <li>Equivalent of 33600 CPU-hours crunched in </li>
+                <li>Equivalent of 2100 CPU-hours crunched in less than 48 hours on the EGI computing grid</li>
             </ul>
         </li><br/>
     </ul>

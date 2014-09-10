@@ -16,13 +16,6 @@ Medical Image Analysis</title>
 
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-
-        <script type="text/javascript" src="js/syntaxhighlighter_3.0.83/scripts/shCore.js"></script>
-        <script type="text/javascript" src="js/syntaxhighlighter_3.0.83/scripts/shBrushScala.js"></script>
-        <link href="js/syntaxhighlighter_3.0.83/styles/shCoreEclipse.css" rel="stylesheet" type="text/css" />
-        <link href="js/syntaxhighlighter_3.0.83/styles/shThemeEclipse.css" rel="stylesheet" type="text/css" />
-        <script type="text/javascript">SyntaxHighlighter.all()</script> 
-
         <link rel="stylesheet" href="js/reveal.js/css/reveal.min.css">
         <link rel="stylesheet" href="js/reveal.js/css/theme/default.css" id="theme">
 
@@ -71,11 +64,13 @@ Medical Image Analysis</h1>
                     </div>
                 </section>
 
-                <section >
+                <section>
 <!--                    <img style="margin-left: 300px;" src="images/monkey.png " alt="monkey"  >-->
+                    
                     <img class="stretch" src="images/patch_based_segmentation.png" />
                     <h4>Wang, Z., Bhatia, K.K., Glocker, B., de Marvao, A., Dawes, T., Kazunari, M., Mori,
 K., Rueckert, D.: <span style="color: #b1c436;">Geodesic patch-based segmentation</span>, MICCAI 2014</h4>
+                
 <!--
                         
                     <p>
@@ -88,6 +83,9 @@ K., Rueckert, D.: <span style="color: #b1c436;">Geodesic patch-based segmentatio
 
                 <section>                    
                     <img class="stretch" src="images/skeleton-computer.jpg" >
+                    <p class="fragment">
+                        "14 hours for each abdominal image (with 50 atlases) using 16 CPU cores clocked at 2.8Ghz"
+                    </p>
 <!--
                     
                     <img style="margin-left: 200px; height:700px;margin-top:-100px" />  
@@ -203,7 +201,7 @@ K., Rueckert, D.: <span style="color: #b1c436;">Geodesic patch-based segmentatio
                 <section style="width:1700px;margin-left:-350px; margin-top: -90px">
                     <h2>OpenMOLE from a <span style="color: #b1c436;">Domain Specific Language</span></h2>
                     <div>  
-                        <pre class="brush: scala">
+                        <pre><code data-trim contenteditable class="stretch">
 val i1 = Prototype[Int]("i1")
 val i2 = Prototype[Int]("i2")
 val j = Prototype[Int]("j")
@@ -223,7 +221,7 @@ val exploration = ExplorationTask(
 
 val ex = exploration -&lt; (hello by 10 on biomed) toExecution        
 ex.start
-</pre>
+                        </code></pre>
                     </div>
                 </section>
 
@@ -280,7 +278,7 @@ ex.start
 </section>    
 
 <section>
-    <h2>Step 2:</h2> <h1>Plan your <span style="color: #b1c436;">the exploration</span></h1>
+    <h2>Step 2:</h2> <h1>Plan your<span style="color: #b1c436;"> exploration</span></h1>
         <table>
     <tr>
      <td>
